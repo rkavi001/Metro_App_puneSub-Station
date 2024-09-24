@@ -27,7 +27,7 @@ void Create_Metro_map(){
     keys.pb("10District Court");
     keys.pb("11Budhwar Peth");
     keys.pb("12Mandai");
-    keys.pb("13Hill View partk Car Depot");
+    keys.pb("13Hill View park Car Depot");
     keys.pb("14Vanaz");
     keys.pb("15SAnand Nagar");
     keys.pb("16Ideal Colony");
@@ -52,9 +52,9 @@ void Create_Metro_map(){
     addEdge("10District Court", "14Vanaz", 6);
     addEdge("14Vanaz", "4Kasarwadi", 7);
     addEdge("4Kasarwadi", "13Hill View partk Car Depot", 1);
-    addEdge("13Hill View partk Car Depot", "12Mandai", 2);
+    addEdge("13Hill View park Car Depot", "12Mandai", 2);
     addEdge("12Mandai", "11Budhwar Peth", 5);
-    addEdge("13Hill View partk Car Depot", "15SAnand Nagar", 2);
+    addEdge("13Hill View park Car Depot", "15SAnand Nagar", 2);
     addEdge("15SAnand Nagar", "16Ideal Colony", 7);
     addEdge("16Ideal Colony", "17Nal stop", 8);
     addEdge("6Dapodi", "18Bund Garden", 2);
