@@ -51,7 +51,7 @@ void Create_Metro_map(){
     addEdge("9Shivaji Nagar", "10District Court", 15);
     addEdge("10District Court", "14Vanaz", 6);
     addEdge("14Vanaz", "4Kasarwadi", 7);
-    addEdge("4Kasarwadi", "13Hill View partk Car Depot", 1);
+    addEdge("4Kasarwadi", "13Hill View park Car Depot", 1);
     addEdge("13Hill View park Car Depot", "12Mandai", 2);
     addEdge("12Mandai", "11Budhwar Peth", 5);
     addEdge("13Hill View park Car Depot", "15SAnand Nagar", 2);
