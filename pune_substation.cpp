@@ -42,7 +42,7 @@ void Create_Metro_map(){
     }
     sz=keys.size();
     addEdge("1PCMC", "2sant tukaram nagar", 8);
-    addEdge("2sant tukaram nagar~B", "3Bhosari[nashik Phata]", 10);
+    addEdge("2sant tukaram nagar", "3Bhosari[nashik Phata]", 10);
     addEdge("3Bhosari[nashik Phata]", "5Phugewadi", 8);
     addEdge("3Bhosari[nashik Phata]", "4Kasarwadi", 6);
     addEdge("4Kasarwadi", "6Dapodi", 9);
