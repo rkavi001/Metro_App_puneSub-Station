@@ -60,9 +60,7 @@ void Create_Metro_map(){
     addEdge("6Dapodi", "18Bund Garden", 2);
     addEdge("20Ruby Hall", "18Bund Garden", 2);
     addEdge("20Ruby Hall", "19Deccan Gymkhana", 3);
-    //cout<<"\n***********************************************************************\n";
-    
-    
+    //cout<<"\n*****************************************************************************\n";
     
     return;
 }
