@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<pair<int,int>> adj[100];
+vector<pair<int,int>> adj[100]; // array of vectors (adj list)
 #define pb push_back
 map<string,int>mp;
 map<int,string>i2s;
