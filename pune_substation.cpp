@@ -7,13 +7,13 @@ map<string,int>mp;
 map<int,string>i2s;
 int sz;
 vector<string>keys;
+
 void addEdge(string a,string b,int dis){
     int x=mp[a];
     int y=mp[b];
     adj[x].pb({y,dis});
     adj[y].pb({x,dis});
 }
-
 
 void Create_Metro_map(){
     keys.pb("1PCMC");
@@ -41,6 +41,7 @@ void Create_Metro_map(){
         mp[keys[i]]=i;
         i2s[i]=keys[i];
     }
+    
     sz=keys.size();
     addEdge("1PCMC", "2sant tukaram nagar", 8);
     addEdge("2sant tukaram nagar", "3Bhosari[nashik Phata]", 10);
@@ -62,18 +63,16 @@ void Create_Metro_map(){
     addEdge("20Ruby Hall", "18Bund Garden", 2);
     addEdge("20Ruby Hall", "19Deccan Gymkhana", 3);
     //cout<<"\n*****************************************************************************\n";
-    
     return;
 }
 
+
 void displaystations(){
-    
     for(int i=0;i<keys.size();i++){
         cout<<i+1<<". "<<keys[i]<<endl;
-        
     }
-    
 }
+
 vector<int>metro_map;
 void dfs(int src,int par,vector<bool>&vis){
     vis[src]=1;
@@ -84,6 +83,7 @@ void dfs(int src,int par,vector<bool>&vis){
         }
     }
 }
+
 void displaymap(){
     vector<bool>vis(sz);
     dfs(0,-1,vis);
