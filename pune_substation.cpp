@@ -73,7 +73,7 @@ void displaystations(){
     }
 }
 
-vector<int>metro_map; //when  station (index) visited each station is pushed into this vector.
+vector<int>metro_map; //when  station (index) visited, we push each station into this vector.
 void dfs(int src,int par,vector<bool>&vis){
     vis[src]=1;
     metro_map.pb(src);
